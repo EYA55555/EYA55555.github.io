@@ -102,7 +102,7 @@
          <p class="hidden_text_5-2">....................</p>
          <p class="hidden_text_5-3">..............</p>
          <form action="/example/">
-          <button type="submit">GET STARTED</button>
+          <button class="button_action" type="submit">GET STARTED</button>
           </form>
         <img src="img/slider-5.png" alt="slider_5">
      </li>
@@ -180,7 +180,7 @@
         <h2 class="action_title"><strong>Waxom</srtong> Multipurpose WordPress Theme</h2>
         <p class="action_desription">Don't Forget to Rate the Template. Thanks so much!</p>
         <form action="/example/">
-          <button type="submit">PUGCHASE NOW</button>
+          <button class="button_action" type="submit">PUGCHASE NOW</button>
           </form>
       </div>
     </section>
@@ -194,7 +194,20 @@
       <p class="projects_content">etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>    
       <form>
                             <!--форма кнопок-->
-      </form>
+      <form class="latestprojects" name="latestproject" action="#" method="post">
+          <input id="latestprojects-all" type="radio" name="filter" value="all" checked>
+          <input id="latestprojects-webdesign" type="radio" name="filter" value="webdesign">
+          <input id="latestprojects-mobileapp" type="radio" name="filter" value="mobileapp">
+          <input id="latestprojects-illustration" type="radio" name="filter" value="illustration">
+          <input id="latestprojects-photo" type="radio" name="filter" value="photo">
+          <label class="latestprojects_filter" for="latestproject-all">All</label>
+          <label class="latestprojects_filter" for="latestproject-webdesign">Web Design</label>
+          <label class="latestprojects_filter" for="latestproject-mobileapp">Mobile App</label>
+          <label class="latestprojects_filter" for="latestproject-illustration">Illustration</label>
+          <label class="latestprojects_filter" for="latestproject-photo">Photography</label>
+          <button class="button_action" type="submit">LOAD MORE</button>
+        </form>
+
       <ul class="projects_list">
         <li class="projects_project">
           <figure class="projects_box">
@@ -289,7 +302,7 @@
  <section class="download">
     <div class="container">
       <form action="/example/">
-        <button type="submit">LOAD MORE</button>
+        <button class="button_action" type="submit">LOAD MORE</button>
       </form>
     </div>
   </section>
@@ -313,7 +326,7 @@
       </div>
       <div class="video_count">03:26</div>
 
-                            <!--сылка на видео-->
+                            <!--сcылка на видео-->
     </div>
   </div>
 </section>
