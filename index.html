@@ -7,11 +7,13 @@
 <!-- Fonts -->
 <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="header/all.css">
   
 </head>
 <body>
   
+<!--welcome-->
+<section class="welcome">
 <!-- Page Header -->
   <header class="page_header">
     <div class="container clearfix">
@@ -24,494 +26,146 @@
         </ul>
       </nav>
       <div class="company">
-        <h2 class="company_name">Switch</h2>
+        <h1 class="company_name">Switch</h1>
       </div>
-
-        <label for="i_name">Ваше прізвище: <b>*</b> </label>
-        <input id="i_name" type="text" name="firstname" value="" placeholder="Прізвище..." autofocus required>
-
-        <div class="search">
-          <i class="search_icon"></i>
-          <img src="img/icon-search.svg" alt="logotype">
-          <!-- Search block -->
-        </div>
+       <!-- Search-->
+      <div class="search_box">
+          <input id="search" type="text" name="search_search" value="" placeholder="Search..." autofocus required>
+          <img src="img/search.svg" alt="magnifier">
+        <!--/Search-->
       </div>
     </div>
   </header>
-<!-- /Page Header -->
-<main class="page_content">
-<h1 class="visually-hidden">Waxom company</h1>
+  <!-- /Page Header -->
 
-<!--slider-->
-<section class="portfolio">
-<h2 class="visually-hidden">Portfolio</h2>
+  <div class="presentation">
+    <h2 class="presentation_title">Art is Eternal Happiness</h2>
+    <a class="btn btn-presentation" href="#" role="button">WORK WITH US</a>
+  </div>
 
- <div class="slider">
-    <input type = "radio" name = "switch" id = "switch-1" checked>
-    <input type = "radio" name = "switch" id = "switch-2">
-    <input type = "radio" name = "switch" id = "switch-3">
-    <input type = "radio" name = "switch" id = "switch-4">
-    <input type = "radio" name = "switch" id = "switch-5"> 
- <div class="slider_wrapper">
-    <ul class="slider_content container">
-      <li class="slider_slide-1">                                    <!--slide-1-->
-         <p class="hidden_text_1-1">Unique and Modern Desing</p>
-         <p class="hidden_text_1-2">Portfolio PSD Template</p>
-         <p class="hidden_text_1-3">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-diet doming id quod mazim placerat facer possim assum.</p>
-         <form action="/example/">
-            <button type="submit">GET STARTED</button>
-         </form>
-        <img src="img/header.png" alt="the mountains">
-    </li>
-     <li  class="slider_slide-2">                                      <!--slide-2-->
-         <p class="hidden_text_2-1">.......................</p>
-         <p class="hidden_text_2-2">....................</p>
-         <p class="hidden_text_2-3">..............</p>
-         <form action="/example/">
-          <button type="submit">GET STARTED</button>
-          </form>
-        <img src="img/slider-2.png" alt="slider_2">
-     </li>
-     <li  class="slider_slide-3">                                <!--slide-3-->
-         <p class="hidden_text_3-1">.......................</p>
-         <p class="hidden_text_3-2">....................</p>
-         <p class="hidden_text_3-3">..............</p>
-         <form action="/example/">
-            <button type="submit">GET STARTED</button>
-          </form>
-        <img src="img/slider-3.png" alt="slider_3">
-     </li>
-      <li  class="slider_slide-4">                                   <!--slide-4-->
-         <p class="hidden_text_4-1">.......................</p>
-         <p class="hidden_text_4-2">....................</p>
-         <p class="hidden_text_4-3">..............</p>
-         <form action="/example/">
-            <button type="submit">GET STARTED</button>
-          </form>
-        <img src="img/slider-4.png" alt="slider_4">
-     </li>
-      <li  class="slider_slide-5">                                    <!--slide-5-->
-         <p class="hidden_text_5-1">.......................</p>
-         <p class="hidden_text_5-2">....................</p>
-         <p class="hidden_text_5-3">..............</p>
-         <form action="/example/">
-          <button class="button_action" type="submit">GET STARTED</button>
-          </form>
-        <img src="img/slider-5.png" alt="slider_5">
-     </li>
-   </ul>
-         
-    <label for = "switch-1" class = "slider_indicator"></label>
-    <label for = "switch-2" class = "slider_indicator"></label>
-    <label for = "switch-3" class = "slider_indicator"></label>
-    <label for = "switch-4" class = "slider_indicator"></label>
-    <label for = "switch-5" class = "slider_indicator"></label>
-</div>
-    <button type="button" class="slider_button slider_button-prev">
-      <img src="img/left.svg" alt="left arrow">
-    </button>
-    
-    <button type="button" class="slider_button slider_button-next">
-       <img src="img/right.svg" alt="right arrow">
-    </button>
-   
-</div> 
+ <div class="scroll">
+     <a class="btn btn-scroll" href="#" role="button">scroll down &#8595;</a>
+  </div>
 </section>
-<!--/slider-->
+<!--/welcome-->
+
 <!--service-->
 <section class="services">
-  <h2 class="visually-hidden">service</h2>
-  <ul class="services_list container">
+  <h2 class="services_title">WHAT WE DO</h2
+  <p class="services_desription">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
+
+
+  <ul class="services_box container">
     <li class="services_item">
-      <a href="#">
-        <img src="img/service-1.svg" alt="pencil">
-        <h3 class="services_title">Web &amp; App Desing</h3>
-        <p class="services_desription">Nam liber tempor cum soluta nobis eleifend option congue nihil     imperdiet doming id quod mazim.</p>
-      </a>
+        <img src="img/Forma-1.svg" alt="camera">
+        <h3 class="services_item_title">Lorem Ipsum</h3>
+        <p class="services_item_desription">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+        <a class="btn btn-services" href="#" role="button">Learn more</a>
     </li>
     <li class="services_item">
-      <a href="#">
-        <img src="img/service-2.svg" alt="pile">
-        <h3 class="services_title">Development</h3>
-        <p class="services_desription">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-        </a>
+      <img src="img/Forma-2.svg" alt="clock">
+        <h3 class="services_item_title">Lorem Ipsum</h3>
+        <p class="services_item_desription">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+        <a class="btn btn-services" href="#" role="button">Learn more</a>
     </li>
     <li class="services_item">
-      <a href="#">
-       <img src="img/service-3.svg" alt="washer">
-        <h3 class="services_title">Customization</h3>
-        <p class="services_desription">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </a>
-    </li>
-    <li class="services_item">
-      <a href="#">
-        <img src="img/service-4.svg" alt="folder">
-        <h3 class="services_title">Marketing</h3>
-        <p class="services_desription">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </a>
+      <img src="img/Forma-3.svg" alt="briefcase">
+        <h3 class="services_item_title">Lorem Ipsum</h3>
+        <p class="services_item_desription">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+         <a class="btn btn-services" href="#" role="button">Learn more</a>
     </li>
   </ul>
+</div>
 </section>
 <!--/service-->
 
-<!-- Realization -->
-    <section class="realization">
-      <div class="container">
-        <h2 class="realization_title">Waxom is realization of your ideas.</h2>
-        <p class="realization_content">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est</p>
-        <p class="realization_content">etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-        <img src="img/realizachion-center.png" alt="the first realization">
-        <img src="img/realisation-right.png" alt="the second realization">
-        <img src="img/realization-left.png" alt="the third realization">
-      </div>
-    </section>
-<!-- /Realization -->
 
-<!-- Action -->
-    <section class="action">
-      <div class="container">
-        <h2 class="action_title"><strong>Waxom</srtong> Multipurpose WordPress Theme</h2>
-        <p class="action_desription">Don't Forget to Rate the Template. Thanks so much!</p>
-        <form action="/example/">
-          <button class="button_action" type="submit">PUGCHASE NOW</button>
-          </form>
-      </div>
-    </section>
-<!-- /Action -->
-
-<!--Projects-->
-  <section class="projects">
+<!--Latest Projects-->
+  <section class="latestproject">
     <div class="container">
-      <h2 class="projects_title">Our Latest Projects.</h2>
-      <p class="projects_content">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est</p>
-      <p class="projects_content">etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>    
+      <h2 class="letestproject_title">OUR LATEST WORK</h2>
+      <p class="letestproject_content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+        
                                  <!--форма кнопок-->
-      <form class="latestprojects" name="latestproject" action="#" method="post">
-          <input id="latestprojects-all" type="radio" name="filter" value="all" checked>
-          <input id="latestprojects-webdesign" type="radio" name="filter" value="webdesign">
-          <input id="latestprojects-mobileapp" type="radio" name="filter" value="mobileapp">
-          <input id="latestprojects-illustration" type="radio" name="filter" value="illustration">
-          <input id="latestprojects-photo" type="radio" name="filter" value="photo">
-          <label class="latestprojects_filter" for="latestproject-all">All</label>
-          <label class="latestprojects_filter" for="latestproject-webdesign">Web Design</label>
-          <label class="latestprojects_filter" for="latestproject-mobileapp">Mobile App</label>
-          <label class="latestprojects_filter" for="latestproject-illustration">Illustration</label>
-          <label class="latestprojects_filter" for="latestproject-photo">Photography</label>
-          <button class="button_action" type="submit">LOAD MORE</button>
+      <form class="latestproject_categories" name="latestproject" action="#" method="post">
+          <input id="latestproject-Photography" type="radio" name="filter" value="Photography" checked>
+          <input id="latestproject-Design" type="radio" name="filter" value="Design">
+          <input id="latestproject-Print" type="radio" name="filter" value="Print">
+         
+          <label class="latestproject_filter" for="latestproject-Photography">Photography</label>
+          <label class="latestproject_filter" for="latestproject-Design">Design</label>
+          <label class="latestproject_filter" for="latestproject-Print">Print</label>
+          
+          <button class="btn btn-filter" type="submit">View more work &#8594;</button>
         </form>
 
-      <ul class="projects_list">
-        <li class="projects_project">
-          <figure class="projects_box">
-            <img class="projects_image" src="img/project-1.png" alt="image Claritas Etiam Processus">
-            <figcaption class="projects_discription">
-              <p class="projects_discription_title">Claritas Etiam Processus</p>
-              <p class="projects_discription_category">Photography, Nature</p>
-            </figcaption>
+      <ul class="latestproject_foto">
+        <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/EvergladesTrees_EN-US13299681542_1920x1200.psd" alt="image project 1">
           </figure>
-          <div class="view">
-            <a href="#" class="view_link">перейти</a>
-            <button class="view_zoom" type="button">увеличить</button>
-          </div>
         </li>
 
-         <li class="projects_project">
-          <figure class="projects_box">
-            <img class="projects_image" src="img/project-2.png" alt="image Quam Nutamus Farum">
-            <figcaption class="projects_discription">
-              <p class="projects_discription_title">Quam Nutamus Farum</p>
-              <p class="projects_discription_category">Grafic Desing, Mock-Up</p>
-            </figcaption>
+        <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/photo-1416339442236-8ceb164046f8_2.psd" alt="image project 2">
           </figure>
-          <div class="view">
-            <a href="#" class="view_link">перейти</a>
-            <button class="view_zoom" type="button">увеличить</button>
-          </div>
         </li>
 
-        <li class="projects_project">
-          <figure class="projects_box">
-            <img class="projects_image" src="img/project-3.png" alt="image Usus Legentis Videntur">
-            <figcaption class="projects_discription">
-              <p class="projects_discription_title">Usus Legentis Videntur</p>
-              <p class="projects_discription_category">Photogaphy, Holiday</p>
-            </figcaption>
+         <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/picjumbo.com_foodiesfeed.com_DSC_0084_2.psd" alt="image project 3">
           </figure>
-          <div class="view">
-            <a href="#" class="view_link">перейти</a>
-            <button class="view_zoom" type="button">увеличить</button>
-          </div>
         </li>
 
-        <li class="projects_project">
-          <figure class="projects_box">
-            <img class="projects_image" src="img/project-4.png" alt="image Clarilas Etiam Processus">
-            <figcaption class="projects_discription">
-              <p class="projects_discription_title">Clarilas Etiam Processus</p>
-              <p class="projects_discription_category">Photogaphy, Nature</p>
-            </figcaption>
+        <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/picjumbo.com_HNCK1587_2.psd" alt="image project 4">
           </figure>
-          <div class="view">
-            <a href="#" class="view_link">перейти</a>
-            <button class="view_zoom" type="button">увеличить</button>
-          </div>
         </li>
 
-        <li class="projects_project">
-          <figure class="projects_box">
-            <img class="projects_image" src="img/project-5.png" alt="image Quam Nutamus Farum">
-            <figcaption class="projects_discription">
-              <p class="projects_discription_title">Quam Nutamus Farum</p>
-              <p class="projects_discription_category">Grafic Desing, Mock-Up</p>
-            </figcaption>
+         <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/picjumbo.com_HNCK4536_2" alt="image project 5">
           </figure>
-          <div class="view">
-            <a href="#" class="view_link">перейти</a>
-            <button class="view_zoom" type="button">увеличить</button>
-          </div>
         </li>
 
-        <li class="projects_project">
-          <figure class="projects_box">
-            <img class="projects_image" src="img/project-6.png" alt="image Usus Legentis Videntur">
-            <figcaption class="projects_discription">
-              <p class="projects_discription_title">Usus Legentis Videntur</p>
-              <p class="projects_discription_category">Photogaphy, Holiday</p>
-            </figcaption>
+        <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/picjumbo.com_HNCK5654_2.psd" alt="image project 6">
           </figure>
-          <div class="view">
-            <a href="#" class="view_link">перейти</a>
-            <button class="view_zoom" type="button">увеличить</button>
-          </div>
+        </li>
+
+        <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/picjumbo.com_HNCK6001_2.psd" alt="image project 7">
+          </figure>
+        </li>
+
+         <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/P_20150308_130210_2.psd" alt="image project 8">
+          </figure>
+        </li>
+
+        <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/577b0836-8f9d-43ef-844d-f0ad65710b95_5_2.psd" alt="image project 9">
+          </figure>
+        </li>
+
+        <li class="latestproject_project">
+          <figure class="latestproject_box">
+            <img class="projects_image" src="img/bd850c34-8b25-46a8-ad19-f501f0318cdb_5_2.psd" alt="image project 10">
+          </figure>
         </li>
       </ul>
     </div>
   </section>
-<!--/Projects-->
+<!--/Latest Projects-->
 
 
-<!--Download-->
- <section class="download">
-    <div class="container">
-      <form action="/example/">
-        <button class="button_action" type="submit">LOAD MORE</button>
-      </form>
-    </div>
-  </section>
-<!--/Download-->
 
-<!--Video-->
-<section class="video">
-  <div class="container">
-    <img class="video_wiew" src="img/photo_video.png" alt=" waxom video presentation">
-    <div class="info">
-      <div class="info_icon">
-        <a href="#" class="play">
-          <img src="img/icon-play.svg" alt="icon play">
-          <img src="img/circle.svg" alt="circle">
-        </a>
-      </div>
-      <div class="video_title">Waxon Video Presentation</div>
-      <div class="video_description">
-        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt</p>
-        <p>saepius/ qui sequitur mutatioem concuetudium.</p>
-      </div>
-      <div class="video_count">03:26</div>
-
-                            <!--сcылка на видео-->
-    </div>
-  </div>
-</section>
-<!--/Video-->
-
-<!--Mobile Devices-->
-<section class="mobile">
-    <div class="container">
-      <div class="mobile_image">
-        <img src="img/iPhone_in_hand.png" alt="phone in hand">
-      </div>
-      <div class="mobile_text">
-        <h2 class="mobile_title">Excellent for Mobile Devices.</h2>
-        <p class="mobile_description">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
-        <p class="mobile_description">nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores</p>
-        <p class="mobile_description">legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis</p>
-        <p class="mobile_description">videntur perum clari, fiant sollemnes in futurum.</p>
-        <ul class="mobile_description_list">
-          <li class="list_devices">
-            <img src="img/list.svg" alt="arrow">
-            <p>Nam liber tempor cum soluta nobis eleifend option;</p>
-          </li>
-          <li class="list_devices">
-            <img src="img/list.svg" alt="arrow">
-            <p>Option congue nihil imperdiet doming id quod mazim placerat facer;</p>
-          </li>
-          <li class="list_devices">
-            <img src="img/list.svg" alt="arrow">
-            <p>Eodem modo typi, qui nunc nobis videntur perum futurum;</p>
-          </li>
-          <li class="list_devices">
-            <img src="img/list.svg" alt="arrow">
-            <p>Investigationes demonstraverunt lectores</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-<!--/Mobile Devices-->
-
-<!--Statistics-->
-<section class="statistics">
-  <div class="container">
-    <img src="img/Background.png" alt="background">
-    <div class="statistics_item">
-      <div class="statistics_item_icon">
-        <img src="img/clients.svg" alt="clients">
-      </div>
-      <div class="statistics_item_count">3587</div>
-      <p>Satisfied Clients</p>
-      <img src="img/lines.svg" alt="line">
-    </div>
-
-    <div class="statistics_item">
-      <div class="statistics_item_icon">
-        <img src="img/cup.svg" alt="cup">
-      </div>
-      <div class="statistics_item_count">207</div>
-      <p>Cups of coffee</p>
-      <img src="img/lines.svg" alt="line">
-    </div>
-
-    <div class="statistics_item">
-      <div class="statistics_item_icon">
-        <img src="img/posts.svg" alt="posts">
-      </div>
-      <div class="statistics_item_count">2500</div>
-      <p>Blog posts</p>
-      <img src="img/lines.svg" alt="line">
-    </div>
-
-    <div class="statistics_item">
-      <div class="statistics_item_icon">
-        <img src="img/likes.svg" alt="heart">
-      </div>
-      <div class="statistics_item_count">873</div>
-      <p>Likes</p>
-      <img src="img/lines.svg" alt="line">
-    </div>
-
-    <div class="statistics_item">
-      <div class="statistics_item_icon">
-        <img src="img/open.svg" alt="sheepskin">
-      </div>
-      <div class="statistics_item_count">2500</div>
-      <p>We launched</p>
-      <img src="img/lines.svg" alt="line">
-    </div>
-  </div>
-</section>
-<!--/Statistics-->
-
-<!--Posts-->
-<section class="posts">
-  <div class="container">
-    <h2 class="posts_title">Recent Posts.</h2>
-    <p class="posts_content">Investigationes demonstraverunt lectores legere me lius quod ii legunttas est</p>
-    <p class="posts_content">etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>   
-
-     <ul class="posts_list">
-        <li class="posts_lists_content">
-          <figure class="posts_box">
-            <div class="min_date">
-              <div class="day">
-                <img class="posts_image_date" src="img/bg_post.png" alt="dark rectangle">
-                <p>30</p>
-              </div>
-              <div class="month">
-                <img class="posts_image_date" src="img/bg_post.png" alt="dark rectangle">
-                <p>Sep.</p>
-              </div>
-            <img class="posts_image" src="img/posts_1.png" alt="first post">
-            <figcaption class="posts_discription">
-              <h3 class="posts_discription_title">Lorem ipsum dolor sit amet</h3>
-              <p class="postss_discription_refinement">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-              <a href="#">
-                <p class="more_info">Read More</p>
-                <img src="img/arrow.svg" alt="arrow">
-              </a>
-            </figcaption>
-          </figure>
-        </li>
-
-        <li class="posts_lists_content">
-          <figure class="posts_box">
-            <div class="min_date">
-              <div class="day">
-                <img class="posts_image_date" src="img/bg_post.png" alt="dark rectangle">
-                <p>30</p>
-              </div>
-              <div class="month">
-                <img class="posts_image_date" src="img/bg_post.png" alt="dark rectangle">
-                <p>Sep.</p>
-              </div>
-            <img class="posts_image" src="img/posts_2.png" alt="second post">
-            <figcaption class="posts_discription">
-              <h3 class="posts_discription_title">Lorem ipsum dolor sit amet</h3>
-              <p class="postss_discription_refinement">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-              <a href="#">
-                <p class="more_info">Read More</p>
-                <img src="img/arrow.svg" alt="arrow">
-              </a>
-            </figcaption>
-          </figure>
-        </li>
-
-        <li class="posts_lists_content">
-          <figure class="posts_box">
-            <div class="min_date">
-              <div class="day">
-                <img class="posts_image_date" src="img/bg_post.png" alt="dark rectangle">
-                <p>30</p>
-              </div>
-              <div class="month">
-                <img class="posts_image_date" src="img/bg_post.png" alt="dark rectangle">
-                <p>Sep.</p>
-              </div>
-            <img class="posts_image" src="img/posts_3.png" alt="third post">
-            <figcaption class="posts_discription">
-              <h3 class="posts_discription_title">Lorem ipsum dolor sit amet</h3>
-              <p class="postss_discription_refinement">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-              <a href="#">
-                <p class="more_info">Read More</p>
-                <img src="img/arrow.svg" alt="arrow">
-              </a>
-            </figcaption>
-          </figure>
-        </li>
-    </ul>
-     <button type="button" class="posts_button post_button-prev">
-      <img src="img/left_2.svg" alt="left arrow">
-    </button>
-    
-    <button type="button" class="posts_button post_button-next">
-       <img src="img/right_2.svg" alt="right arrow">
-    </button>
-  </div>
-</section>
-<!--/Posts--> 
-
-<!--sponsors-->
-<section class="sponsors">
-  <div class="container">
-    <img src="img/image_sponsore.png" alt="mountains">
-    <div class="sponsors_line">
-      <img src="img/sponsor-1.svg" alt="sponsors">
-      <img src="img/sponsor-2.svg" alt="sponsors">
-      <img src="img/sponsor-3.svg" alt="sponsors">
-      <img src="img/sponsor-4.svg" alt="sponsors">
-    </div>
-  </div>                                      
-</section>
-<!--/sponsors-->
 
   
 </footer>
