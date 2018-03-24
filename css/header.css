@@ -17,7 +17,7 @@
   display: block;
   width: 100%;
   height: 33px;
-  padding-top: 0;
+  padding-top: 0px;
   margin-bottom: -33px;
   background-color: transparent;
   
@@ -75,7 +75,7 @@
   vertical-align: middle;
   margin-right: 30px;
   font-size: 16px;
-  line-height: 55px;
+  line-height: 33px;
   text-transform: capitalize;
   
 }
@@ -99,6 +99,7 @@
   color: #ffffff;
   font-weight:bold; /*bolder 100-900*/ 
   font-family: 'Raleway', sans-serif; /*Proxima Nova Light*/ 
+  border-top: 5px solid #54d154;
   
 }
 
@@ -137,17 +138,18 @@
   float: left;
   width: 170px;
   height: 33px;
-  margin: 0 15px;
+ 
   margin-right: 285px;
   
-  bottom:0;
 }
 
 #search {
+  height: 28px;
   border-radius: 15px;
   background-color: rgba(255,255,255,0.5);
   color: #000000;
   cursor:text;
+  bottom:0;
 }
 
 
