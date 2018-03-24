@@ -13,7 +13,7 @@
   display: block;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/background.png");
+  background-image: url("/../img/background.png");
   
 }
 
@@ -21,7 +21,8 @@
 
 .offers_slogan {
   
-  margin-bottom: 210px;
+  height: 730px;
+  margin: 0 auto;
   font-size: 55px;
   line-height: 120px;
   width: 730px;
