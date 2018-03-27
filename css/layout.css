@@ -76,6 +76,8 @@ html {
   outline: none;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+
   
 }
 
@@ -99,8 +101,6 @@ html {
   border-radius: 15px;
   background-color: rgba(255,255,255,0.5);
   color: #000000;
-  cursor: pointer;
-
   font-family: 'Raleway', sans-serif; /*Proxima Nova Light*/ 
   font-weight: 800;                     /*******/
   font-size: 16px;
@@ -109,5 +109,18 @@ html {
   text-align: center;
   
 }
+.btn-services {
+  background-color: #54d154;
+  width: 120px;
+  border-radius: 15px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Raleway', sans-serif; /*Proxima Nova Bold*/
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 /*  /BUTTON  */
