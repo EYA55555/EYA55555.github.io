@@ -1,0 +1,78 @@
+/*TESTIMONIALS*/
+
+.testimonials,
+.testimonials_title,
+.testimonials_description,
+.testimonials_content,
+.herp,
+.herp_name,
+.herp_info {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.testimonials {
+	display: block;
+}
+
+.testimonials_title {
+
+	font-family: 'Montserrat', sans-serif; /*Montserrat Light*/
+	font-weight: 300;
+	font-size: 20.54px;
+	line-height: 50px;
+	text-transform: uppercase;
+  	text-align: center;
+  	color:#828181;
+}
+
+.testimonials_description {
+	text-align: center;
+
+
+}
+
+.testimonials_content {
+	font-family: 'ProximaNova', sans-serif; /*ProximaNova Regular*/
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	padding-top: 70px;
+  	color:#444444;
+}
+
+.herp {
+	background-image: url(../img/Herp.png);
+	position: block;
+    
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-color: #e8e3e3;
+    border-radius: 25px;
+
+     border-width: 2px;
+     border-color: #e1e1e1;
+}
+
+.herp_name {
+	font-family: 'ProximaNova', sans-serif; /*ProximaNova Regular*/
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: left;
+	color:#444444;
+}
+
+.herp_info {
+	font-family: 'ProximaNova', sans-serif; /*ProximaNova Bold*/
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: left;
+	color:#cccccc;
+}
+/*   /TESTIMONIALS-*/

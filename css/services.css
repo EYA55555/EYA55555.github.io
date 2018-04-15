@@ -18,6 +18,7 @@
   display: block;
   
   font-family: 'Montserrat', sans-serif; /*light*/
+  font-weight: 300;
   margin-top: 30px;
 
   
@@ -25,8 +26,8 @@
 .services_title {
 
   color: #818181;
-  font-family: 'Monsterrat', sans-serif; /*Light*/
-  font-weight: 100;
+  font-family: 'Montserrat', sans-serif; /*Light*/
+  font-weight: 300;
   font-size: 20.54px;
   line-height: 50px;
   text-transform: uppercase;
@@ -43,7 +44,7 @@
   
   padding: 0;
   list-style: none;
-  padding-top: 240px;
+  padding-top: 100px;
   padding-bottom: 70px;
   
 }
@@ -70,35 +71,32 @@
   margin: 0 auto;
   height: 143px;
   
-  background-image: url("../img/services-sprite.png");
+}
+
+.icon-1 {
+   background-image: url(../img/Forma-1.svg);
+}
+
+.icon-2 {
+   background-image: url(../img/Forma-2.svg);
+}
+.icon-3 {
+   background-image: url(../img/Forma-3.svg);
+}
+
+.icon-1, 
+.icon-2,
+.icon-3 {
+  position: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 140px;
+  height: 140px;
+   margin: auto;
   background-repeat: no-repeat;
-  
-}
-
-.services_item-app::before {
-  
-  background-position: 2px 0;
-
-
-  
-}
-
-.services_item-dev::before {
-  
-  background-position: -299px 0;
-  
-}
-
-.services_item-cust::before {
-  
-  background-position: -598px -1px;
-  
-}
-
-.services_item-mark::before {
-  
-  background-position: -898px 0px;
-  
+   background-color: #e8e3e3;
+   border-radius: 25px;
 }
 
 .services_item::after {
@@ -113,18 +111,17 @@
   width: 70px;
   margin: 0 auto;
   height: 3px;
-  
-  
+    
 }
 
-.services_item_title {
+.services_item_title {   
   
   margin-top: -3px;
   margin-bottom: 15px;
   color: #818181;
-  
-  font-family: 'Raleway', sans-serif; /*Proxima Nova Bold*/
-  font-weight: 600;
+  padding-top: 28px;
+  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Bold*/
+  font-weight: 700;
   font-size: 24px;
   line-height: 24px;
   text-align: center;

@@ -20,6 +20,34 @@ html {
   
 }
 
+/*FONTS*/
+@font-face{
+
+font-family: 'Nautilus Pompilius';
+src: url('../fonts/NautilusPompilius.otf');
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'ProximaNova';
+src: url('../fonts/ProximaNova-Regular.ttf');
+src: url('../fonts/ProximaNova-Light.ttf');
+src: url('../fonts/ProximaNova-Bold.ttf');
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'Montserrat';
+src: url('../fonts/Montserrat-Light.ttf');
+font-style: normal;
+
+}
+
+
 .container {
   
   width: 1200px;
@@ -86,12 +114,17 @@ html {
   width: 210px;
   border-radius: 25px;
   background-color: #54d154;
-  font-family: 'Raleway', sans-serif; /*Proxima Nova Regular*/
+  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
+  font-weight: 400;
 
   font-size: 22px;
   line-height: 50px;
   text-transform: uppercase;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
   
 }
 
@@ -101,8 +134,9 @@ html {
   border-radius: 15px;
   background-color: rgba(255,255,255,0.5);
   color: #000000;
-  font-family: 'Raleway', sans-serif; /*Proxima Nova Light*/ 
-  font-weight: 800;                     /*******/
+  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Light*/ 
+  font-weight: 300;  
+
   font-size: 16px;
   line-height: 27px;
   text-transform: lowercase;
@@ -115,11 +149,33 @@ html {
   border-radius: 15px;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Raleway', sans-serif; /*Proxima Nova Bold*/
+  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Bold*/
   text-align: center;
   display: block;
   margin: 0 auto;
 }
+.btn-filter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.btn-action, .btn-filter {
+    width: 170px;
+    border-radius: 3px;
+    border-bottom: 3px solid #736357;
+    background-color: #998675;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 47px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 
 

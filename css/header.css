@@ -36,8 +36,9 @@
   
   float: left;
   display: block;
-  width: 490px;
-  margin: 0 0 15px -150px;
+  width: 410px;
+  margin: 0 0 0 -150px;
+  padding-right: 80px;
   
   
 }
@@ -53,14 +54,14 @@
 .navigation_item {
   
   list-style: none;
+ 
   
 }
 
 .navigation_link {
-  
   text-decoration: none;
   color: inherit;
-  
+ 
 }
 
 .navigation-main {
@@ -79,7 +80,8 @@
   margin-right: 30px;
   font-size: 16px;
   line-height: 33px;
-  text-transform: capitalize;
+  text-transform: none;
+  
   
 }
 
@@ -94,16 +96,17 @@
   font-size: inherit;
   line-height: inherit;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif; /*Myriad Pro Regular*/ 
+  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/ 
+  font-weight: 400;
   
 }
 
 .navigation-main .navigation_link:hover {
   
   color: #ffffff;
-  font-weight:bold; /*bolder 100-900*/ 
-  
   border-top: 5px solid #54d154;
+  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Bold*/ 
+  font-weight: 700;
   
 }
 
@@ -117,9 +120,9 @@
   
   float: left;
   width: 160px;
-  margin: 0 0 15px 170px;
+  padding-left: 170px;
   color: #ffffff;
-  font-style: oblique;
+   
   
 }
 
@@ -132,8 +135,17 @@
   border: none;
 
   outline: none;
+}
+
+.company_name {
+
+  font-family: 'Nautilus Pompilius', sans-serif; /*NautilusPompilius Regular*/ 
+  font-weight: 400;
+  font-size: 24px;
   
 }
+
+
 
 /*  /COMPANY  */
 
@@ -142,14 +154,9 @@
 
 .search_box {
   
-  float: left;
-  width: 175px;
-  height: 28px;
- 
-  
-  margin: 0 0 30px 340px;
- 
-  
+  float: right;
+  width: 220px;
+
 }
 
 #search {
@@ -159,10 +166,9 @@
   cursor:text;
   vertical-align: bottom;
   padding-left: 10px;
-  
-  
- 
-  
+  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Light*/ 
+  font-weight: 300;
+
 }
 
 
