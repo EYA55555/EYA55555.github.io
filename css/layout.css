@@ -130,6 +130,7 @@ font-style: normal;
 
 .btn-scroll {
   
+  position: absolute;
   width: 120px;
   border-radius: 15px;
   background-color: rgba(255,255,255,0.5);
@@ -156,26 +157,41 @@ font-style: normal;
 }
 .btn-filter {
     position: absolute;
-    bottom: 0;
+    bottom: -455px;
     left: 0;
     right: 0;
     margin: 0 auto;
 }
-.btn-action, .btn-filter {
-    width: 170px;
-    border-radius: 3px;
-    border-bottom: 3px solid #736357;
-    background-color: #998675;
-    color: #ffffff;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 47px;
-    text-transform: uppercase;
+.btn-filter {
+    background-color: #2b9b2b;
+    width: 190px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 40px;  
+    font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
+    font-weight: 400;
     text-align: center;
+    color:#ffffff;
 }
 
+.btn-allclients {
+    background-color: #dddcdc;
+    width: 190px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 40px;
+                   
+    font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
+    font-weight: 400;
+    text-align: center;
+    color:#a59d9d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 500px;
+    
+}
 
 
 

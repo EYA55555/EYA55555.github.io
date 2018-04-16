@@ -13,11 +13,12 @@
 
 .latestproject {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 500px;
     text-align: center;
     display: block;
 	background-color: #54d154; 
 	height: : 750px;
+
 }
 
 .latestproject .container {
@@ -43,29 +44,14 @@
 }
 
 .latestproject_categories {
-    padding: 15px;
+    
     font-size: 0;
     line-height: 0;
     vertical-align: middle;
 }
+
 .latestproject_filter {
     display: inline-block;
-    margin: 0 5px;
-    font-family: 'ProximaNova', sans-serif; /*ProximaNova Regular*/
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    text-transform: capitalize;
-    background-color: #ffffff;
-    color: #2b9b2b;
-    padding-left: : 27px;
-    padding-right: 27px;
-    text-align: center;
-}
-.latestproject_filter:hover {
-    
-    color: #ffffff;
-    background-color: #2b9b2b;
 }
 
 .latestproject_filter input[type="radio"] {
@@ -78,11 +64,31 @@
   display: inline-block;
   padding: 0 12px;
   border: 1px solid #ebebeb;
-  border-radius: 2px;
   white-space: nowrap;
   cursor: pointer;
-  
+  font-family: 'ProximaNova', sans-serif; /*ProximaNova Regular*/
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+    
+   background-color: #ffffff;
+    
+   border-color: #2b9b2b;
+   color: #2b9b2b;
 }
+
+.latestproject_filter span:hover {
+	color: #ffffff;
+    background-color: #2b9b2b;
+}
+
+.latestproject_filter .Photo {
+	border-radius: 20px 0 0 20px;
+ }
+
+.latestproject_filter .Print {
+    border-radius: 0 20px 20px 0;
+ }
 
 .latestproject_foto,
 .latestproject_project {
@@ -95,6 +101,7 @@
 .latestproject_foto {
   
   padding-bottom: 45px;
+  margin-left: 50px;
   
 }
 .latestproject_project {
@@ -106,9 +113,6 @@
   
 }
 
-/*  VIEW  */
-
-
 .projects_image {
   
   display: block;
@@ -116,8 +120,5 @@
   height: auto;
   
 }
-
-
-
 
 /*/LATEST PROJECT*/

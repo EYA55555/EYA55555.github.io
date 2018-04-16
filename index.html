@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/services.css">
   <link rel="stylesheet" href="css/latestproject.css">
   <link rel="stylesheet" href="css/testimonials.css">
+   <link rel="stylesheet" href="css/clients.css">
+   <link rel="stylesheet" href="css/command.css">
 
 </head>
 <body class="no-js">
@@ -104,14 +106,21 @@
         
                                  <!--форма кнопок-->
       <form class="latestproject_categories" name="latestproject" action="#" method="post">
-          <input id="latestproject-Photography" type="radio" name="filter" value="Photography" checked>
-          <input id="latestproject-Design" type="radio" name="filter" value="Design">
-          <input id="latestproject-Print" type="radio" name="filter" value="Print">
-         
-          <label class="latestproject_filter" for="latestproject-Photography">Photography</label>
-          <label class="latestproject_filter" for="latestproject-Design">Design</label>
-          <label class="latestproject_filter" for="latestproject-Print">Print</label>
-          
+          <label class="latestproject_filter">
+              <input type="radio" name="filter" value="Photography" checked>
+              <span class="Photo">Photography</span>
+          </label>
+
+          <label class="latestproject_filter">
+              <input type="radio" name="filter" value="Design">
+              <span class="Design">Design</span>
+          </label>
+
+          <label class="latestproject_filter">
+              <input type="radio" name="filter" value="Print">
+              <span class="Print">Print</span>
+          </label>
+                    
           <button class="btn btn-filter" type="submit">View more work &#8594;</button>
         </form>
 
@@ -160,20 +169,110 @@
   </section>
 <!--/Latest Projects-->
 
-<!--testimonials-->                               <!--отзвывы-->
+<!--testimonials-->                               <!--отзвывы слайдер-->
   <section class="testimonials">
   <div class="container">
-      <h2 class="testimonials_title">Testimonials</h2>
+    <h2 class="testimonials_title">Testimonials</h2>
         <p class="testimonials_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
-        <p class="testimonials_content">“Awalnya saya tid ak menderita penyakit apapun,
+     <div id="offers_slider" class="slider">
+        <input id="slide-01" class="slider_switch" type="radio" name="switch" checked>
+        <input id="slide-02" class="slider_switch" type="radio" name="switch">
+        <input id="slide-03" class="slider_switch" type="radio" name="switch">
+        <div class="slider_wrapper">
+          <ul class="slider_content container">
+            <li class="slider_slide slider_slide-01">
+              <p class="testimonials_content">“Awalnya saya tid ak menderita penyakit apapun,
 namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
 tidak menderita penyakit apapun!”</p>
-      <div class="herp">
-        <p class="herp_name">Mr. Herp</p>
-        <p class="herp_info">CEO of Meme, Inc.</p>
-      </div>
+              <div class="herp">
+                  <img class="herp-1" src="img/herp.png" alt="face">
+                  <p class="herp_name">Mr. Domson</p>
+                  <p class="herp_info">CEO of Meme, Inc.</p>
+              </div>
+            </li>
+            <li class="slider_slide slider_slide-02">
+              <p class="testimonials_content">“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint”</p>
+              <div class="herp">
+                <img class="herp-2" src="img/herp-2.png" alt="face">
+                  <p class="herp_name">Ms. Marich</p>
+                  <p class="herp_info">CEO of Nium, Inc.</p>
+              </div>
+            </li>
+            <li class="slider_slide slider_slide-03">
+              <p class="testimonials_content">“But I must explain to you how all this mistaken of denouncing pleasure and praising pain was born and I will give you a complete account of the system, a of the great explorer of the truth”</p>
+              <div class="herp">
+                  <img class="herp-3" src="img/herp-3.png" alt="face">
+                  <p class="herp_name">Mr. Herp</p>
+                  <p class="herp_info">CEO of Djoy, Inc.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="slider_indicators">
+            <label class="slider_indicator" for="slide-01"></label>
+            <label class="slider_indicator" for="slide-02"></label>
+            <label class="slider_indicator" for="slide-03"></label>
+          </div>
+        </div>
   </div>
+</section>
 <!--/testimonials-->
+
+<!--clients-->
+<section class="clients">
+  <div class="container">
+      <h2 class="clients_title">OUR HAPPY CLIENT</h2>
+      <p class="clients_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
+      <ul class="clients_list">
+          <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Google</span>
+                  <img class="clients_image" src="img/google.png" alt="Google">
+              </a>
+          </li>
+          <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Yahoo!</span>
+                  <img class="clients_image" src="img/yahoo.png" alt="Yahoo!">
+              </a>
+          </li>
+          <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Microsoft</span>
+                  <img class="clients_image" src="img/microsoft.png" alt="Microsoft">
+              </a>
+          </li>
+           <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Intel</span>
+                  <img class="clients_image" src="img/intel.png" alt="Intel">
+              </a>
+          </li>
+          <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Qualcomm</span>
+                  <img class="clients_image" src="img/qualcomm.png" alt="Qualcomm">
+              </a>
+          </li>
+          <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Cisco</span>
+                  <img class="clients_image" src="img/cisco.png" alt="Cisco">
+              </a>
+          </li>
+          <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Apple</span>
+                  <img class="clients_image" src="img/apple.png" alt="Apple">
+              </a>
+          </li>
+          <li class="partners_item">
+              <a class="clients_link" href="#"><span class="visually-hidden">Asus</span>
+                  <img class="clients_image" src="img/asus.png" alt="Asus">
+              </a>
+          </li>
+        </ul>
+        <button class="btn btn-allclients" type="submit">See all client &#8594;</button>
+  </div>
+</section>
+
+<!--/clients-->
+
+<!--command-->
+
+<!--/command-->
 
 </main>
 <!-- /Main -->

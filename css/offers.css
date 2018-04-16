@@ -56,7 +56,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    
+    padding-left: 735px;
+    padding-top: 650px;
     
     display: block;
     margin-left: auto;

@@ -25,7 +25,7 @@
 }
 .services_title {
 
-  color: #818181;
+  color: #828181;
   font-family: 'Montserrat', sans-serif; /*Light*/
   font-weight: 300;
   font-size: 20.54px;
@@ -87,10 +87,11 @@
 .icon-1, 
 .icon-2,
 .icon-3 {
-  position: block;
+  display: block;
   top: 0;
   left: 0;
   right: 0;
+  bottom: 0;
   width: 140px;
   height: 140px;
    margin: auto;
