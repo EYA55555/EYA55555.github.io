@@ -29,18 +29,21 @@
 
 .latestproject_title {
   
-  margin: 0 15px;
-  margin-bottom: 15px;
+  	margin: 0 15px;
+  	margin-bottom: 15px;
   	font-family: 'Montserrat', sans-serif; /*Montserrat Light*/
 	font-weight: 300;
 	font-size: 20.54px;
 	line-height: 50px;
 	text-transform: uppercase;
   	color:#207b20;
+
 }
 
 .letestproject_content {
 	color: #2b9b2b;
+	margin-bottom: 60px;
+	margin-top: 20px;
 }
 
 .latestproject_categories {
