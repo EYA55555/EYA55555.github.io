@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/testimonials.css">
    <link rel="stylesheet" href="css/clients.css">
    <link rel="stylesheet" href="css/command.css">
+   <link rel="stylesheet" href="css/footer.css">
 
 </head>
 <body class="no-js">
@@ -70,7 +71,7 @@
   <h2 class="visually-hidden">Our services</h2>
   <div class="container">
       <h3 class="services_title">WHAT WE DO</h3>
-        <p class="services_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
+          <p class="services_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
       </div>
 
   <ul class="services_list container clearfix">
@@ -318,7 +319,92 @@ tidak menderita penyakit apapun!”</p>
 
 <!--/Footer -->
 <footer class="page_footer">
-
+    <div class="summary">                                                       <!--Блок резюме-->
+        <div class="summary_block">
+          <h2 class="visually-hidden">About us</h2>
+          <p class="summary_title">About as</p>
+          <div class="line_block"></div>
+          <p class="about_text">  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+          <img class="media" src="img/media.png" alt="media">
+        </div>
+        <div class="summary_block">
+          <h2 class="summary_title">Recent Posts</h2>
+            <div class="line_block"></div>
+          <ul class="summary_list">
+            <li class="summary_item">
+              <a class="summary_link" href="#">
+                <img class="post_foto" src="img/post-1.png" alt="foto posts">
+                <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                <p class="category1">Magazine</p>
+              </a>
+            </li>
+            <li class="summary_item">
+             <a class="summary_link" href="#">
+                <img class="post_foto" src="img/post-2.png" alt="foto posts">
+                <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                <p class="category2">Ul design</p>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a class="summary_link" href="#">
+                <img class="post_foto" src="img/post-3.png" alt="foto posts">
+                <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                <p class="category3">Photography</p>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a class="summary_link" href="#">
+                <img class="post_foto" src="img/post-4.png" alt="foto posts">
+                <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                <p class="category4">Book</p>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a class="summary_link" href="#">
+                <img class="post_foto" src="img/post-5.png" alt="foto posts">
+                <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                <p class="category5">Ul design</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="summary_block">
+          <h2 class="summary_title">contact us</h2>
+          <div class="line_block"></div>
+          <div class="contacts">
+              <p>10044 West 23th Street, Suite 721</p>
+              <p>New York NY 10010</p>
+              <p>Email: Username@email.com</p>
+              <p>Phone: +1 (0) 123 4567 890</p>
+              <p>Fax: +1 (0) 321 4567 890</p>
+          </div>
+                                                                      <!--feetback form-->
+        <div id="feedback-form__wrapper" class="overlay">
+        <form id="feedback-form" action="/sendmail.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
+        <h2 class="visually-hidden">Обратная связь</h2>
+        <div class="feedback-form__info"></div>
+        
+        <input id="user-name" type="text" name="user_name" value="" placeholder="Your Name.." autofocus required>
+        
+        <input id="user-email" type="email" name="user_email" value="" placeholder="Your Email.." required>
+           
+        <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." required></textarea>
+        <button class="btn btn-forma_send" type="submit">Send</button>
+      </form>
+    </div>                                                           
+        
+        </div>
+ 
+       
+    </div>
+   
+  </footer>
+<!-- /Page Footer -->
+ 
+<!--  JAVA SCRIPTS  -->
+<script src="js/no-js.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/sticky-header.js"></script>
   
 </footer>
 

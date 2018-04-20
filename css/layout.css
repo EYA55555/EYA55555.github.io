@@ -241,6 +241,27 @@ font-style: normal;
     color: #3eba3e;
 }
 
+.btn-forma_send {
+    display: inline-block;
+    background-color: #2b9b2b;
+    width: 340px;
+    font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color:#ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 0 0 5px 5px;
+}
+
+.btn-forma_send:hover {
+  background-color: #54d154;
+  color: #333333;
 
 
 

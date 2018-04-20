@@ -1,0 +1,230 @@
+/*  PAGE FOOTER  */
+
+
+.page_footer,
+.copyright_list,
+.copyright_item,
+.copyright_link,
+.summary a,
+.summary_list,
+.summary_item,
+.contacts, 
+.overlay,
+.feedback-form__info {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+/*  SUMMARY  */
+
+.summary {
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 440px;
+  
+  color: #cccccc;
+  background-color: #333333;
+  
+}
+
+.summary a {
+  
+  text-decoration: none;
+  color: inherit;
+}
+
+.summary a:hover {
+  color: #298829;
+}
+
+.summary_block {
+  
+  float: left;
+  width: 33%;
+
+}
+  
+.summary_title {
+  
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-family: 'Montserrat'; /*Montserrat Light*/
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 160px;
+  
+  
+}
+
+.summary_block .line_block {
+  display: inline-block;
+  padding: 0 15px;
+  border: 1px solid #ebebeb;
+  float:left; 
+  margin-left: 190px;
+  
+}
+
+.about_text {
+  
+  font-size: 16px;
+  line-height: 24px;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  font-family: 'ProximaNova'; /*ProximaNova Regular*/;
+  font-weight: 400;
+  width: 340px;
+
+ }
+
+.media {
+
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+
+
+.summary_list,
+.summary_item {
+  
+  list-style: none;
+  
+  
+}
+
+.summary_link {
+  position: relative;
+  display: inline-block;
+
+}
+
+.summary_link:hover {
+  
+  color: #c7b299;
+  
+}
+
+.contacts {
+
+  font-family: 'ProximaNova'; /*ProximaNova Light*/;
+  font-weight: 300;
+   font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.post_text {
+
+display: inline-block;
+ vertical-align: top;
+ text-transform: capitalize;
+ top: 0px;
+
+}
+
+.post_foto {
+
+padding-top: 20px;
+}
+
+.category1,
+.category2,
+.category3,
+.category4,
+.category5 {
+
+display: inline-block;
+top:0;
+position: absolute;
+margin-left: 60px;
+margin-top: 45px;
+padding: 0 5px;
+
+color: #ffffff;
+border-radius: 5px;
+text-align: center;
+font-family: 'Montserrat'; /*Monsterrat Light*/;
+font-weight: 300;
+font-size: 12.6px;
+line-height: 18px;
+text-transform: uppercase;
+}
+
+.category1 {
+  background-color: #54d154;
+}
+.category3 {
+  background-color: #089dea;
+}
+.category4 {
+  background-color: #f34d04;
+}
+.category2,
+.category5 {
+  background-color: #ffba00
+}
+
+/*  FORMA FEEDBACK  */
+form {
+  display: block;
+  margin: 0 auto;
+}
+
+.feedback-form__info{
+ 
+}
+
+
+
+
+.overlay {
+
+  position: inline-block;
+  width: 325px;
+  top: 0
+   left: 0;
+  right: 0;
+  margin: 0 auto;
+  
+}
+
+#user-name,
+#user-email,
+#user-message {
+width: 325px;
+background-color: #444444;
+font-family: 'ProximaNova'; /*ProximaNova Regular*/;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+padding-left: 15px;
+border: none;
+margin-top: 2px;
+
+}
+
+#user-message {
+  width: 323px;
+}
+
+#user-name {
+  border-radius: 5px 5px 0 0;
+ }
+
+/*  /FORMA FEEDBACK  */
+
+
+/*  /PAGE FOOTER  */
