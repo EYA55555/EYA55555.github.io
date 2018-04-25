@@ -14,7 +14,7 @@ html, body {
 html {
   
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 16px;
   line-height: 28px;
   
@@ -26,27 +26,38 @@ html {
 font-family: 'Nautilus Pompilius';
 src: url('../fonts/NautilusPompilius.otf');
 font-style: normal;
+font-weight: normal;
 
 }
 
 @font-face{
-
-font-family: 'ProximaNova';
+font-family: 'ProximaNovaRegular';
 src: url('../fonts/ProximaNova-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'ProximaNovaLight';
 src: url('../fonts/ProximaNova-Light.ttf');
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face{
+font-family: 'ProximaNovaBold';
 src: url('../fonts/ProximaNova-Bold.ttf');
 font-style: normal;
-
+font-weight: normal;
 }
 
 @font-face{
 
 font-family: 'Montserrat';
-src: url('../fonts/Montserrat-Light.ttf');
+src: url('../fonts/Montserrat-Light.otf');
+font-weight: normal;
 font-style: normal;
-
 }
-
 
 .container {
   
@@ -114,9 +125,7 @@ font-style: normal;
   width: 210px;
   border-radius: 25px;
   background-color: #54d154;
-  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
-  font-weight: 400;
-
+  font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
   font-size: 22px;
   line-height: 50px;
   text-transform: uppercase;
@@ -134,32 +143,34 @@ font-style: normal;
 }
 
 .btn-scroll {
-  
-  position: absolute;
+  position: relative;
   width: 120px;
   border-radius: 15px;
   background-color: rgba(255,255,255,0.5);
   color: #000000;
-  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Light*/ 
-  font-weight: 300;  
-
+  font-family: 'ProximaNovaLight', sans-serif; /*ProximaNova Light*/  
   font-size: 16px;
   line-height: 27px;
   text-transform: lowercase;
   text-align: center;
-  margin: 750px auto 0 auto;
   left: 0;
-  right: 0;
-
-  
+  right: 0;    
+  margin: 0 auto;
 }
+
+.btn-scroll:hover {
+ color: #ffffff;
+ background-color: #54d154;
+}
+
+
 .btn-services {
   background-color: #54d154;
   width: 120px;
   border-radius: 15px;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'ProximaNova', sans-serif; /*Proxima Nova Bold*/
+  font-family: 'ProximaNovaBold', sans-serif; /*Proxima Nova Bold*/
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -189,8 +200,7 @@ font-style: normal;
     border-radius: 25px;
     font-size: 18px;
     line-height: 40px;  
-    font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
-    font-weight: 400;
+    font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
     text-align: center;
     color:#ffffff;
 }
@@ -202,9 +212,9 @@ font-style: normal;
     font-size: 18px;
     line-height: 40px;
                    
-    font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
-    font-weight: 400;
+    font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
     text-align: center;
+    vertical-align: middle;
     color:#a59d9d;
     position: absolute;
     left: 0;
@@ -223,8 +233,7 @@ font-style: normal;
     background-color: #54d154;
     width: 175px;
     border-radius: 25px;
-     font-family: 'ProximaNova', sans-serif; /*Proxima Nova Light*/
-    font-weight: 200;
+     font-family: 'ProximaNovaLight', sans-serif; /*Proxima Nova Light*/
     font-size: 18.63px;
     line-height: 40px;
     text-align: center;
@@ -245,8 +254,7 @@ font-style: normal;
     display: inline-block;
     background-color: #2b9b2b;
     width: 340px;
-    font-family: 'ProximaNova', sans-serif; /*Proxima Nova Regular*/
-    font-weight: 400;
+    font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
     font-size: 14px;
     line-height: 30px;
     text-align: center;
@@ -264,5 +272,5 @@ font-style: normal;
   color: #333333;
 
 
-
+   
 /*  /BUTTON  */

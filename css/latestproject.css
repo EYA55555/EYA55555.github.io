@@ -8,36 +8,30 @@
   
   margin: 0;
   padding: 0;
-  
 }
 
 .latestproject {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 500px;
     text-align: center;
     display: block;
 	background-color: #54d154; 
 	height: : 750px;
-
 }
 
 .latestproject .container {
-  
-  position: relative;
-  
+  	position: relative;
 }
 
-.latestproject_title {
+.letestproject_title {
   
   	margin: 0 15px;
   	margin-bottom: 15px;
   	font-family: 'Montserrat', sans-serif; /*Montserrat Light*/
-	font-weight: 300;
 	font-size: 20.54px;
 	line-height: 50px;
 	text-transform: uppercase;
-  	color:#207b20;
-
+  	color: #207b20;
 }
 
 .letestproject_content {
@@ -47,7 +41,6 @@
 }
 
 .latestproject_categories {
-    
     font-size: 0;
     line-height: 0;
     vertical-align: middle;
@@ -58,26 +51,21 @@
 }
 
 .latestproject_filter input[type="radio"] {
-  
   display: none;
-  
 }
+
 .latestproject_filter span {
-  
   display: inline-block;
   padding: 0 12px;
   border: 1px solid #ebebeb;
   white-space: nowrap;
   cursor: pointer;
-  font-family: 'ProximaNova', sans-serif; /*ProximaNova Regular*/
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 32px;
-    
-   background-color: #ffffff;
-    
-   border-color: #2b9b2b;
-   color: #2b9b2b;
+  font-family: 'ProximaNovaRegular', sans-serif; /*ProximaNova Regular*/
+  font-size: 16px;
+  line-height: 32px;
+  background-color: #ffffff;
+  border-color: #2b9b2b;
+  color: #2b9b2b;
 }
 
 .latestproject_filter span:hover {
@@ -95,33 +83,26 @@
 
 .latestproject_foto,
 .latestproject_project {
-  
   display: block;
   list-style: none;
-  
 }
 
 .latestproject_foto {
-  
   padding-bottom: 45px;
   margin-left: 50px;
-  
 }
+
 .latestproject_project {
-  
   position: relative;
   float: left;
   width: 160px;
   margin: 30px;
-  
 }
 
 .projects_image {
-  
   display: block;
   max-width: 100%;
   height: auto;
-  
 }
 
 /*/LATEST PROJECT*/

@@ -18,16 +18,17 @@
    	background-color: #f2f1f1;
 }
 
+
+
 .clients_title {
 
 	font-family: 'Montserrat', sans-serif; /*Montserrat Light*/
-	font-weight: 300;
 	font-size: 20.54px;
 	line-height: 50px;
 	text-transform: uppercase;
   	text-align: center;
   	color:#828181;
-  	padding-top: 70px;
+  	padding-top: 30px;
 }
 
 .clients_description {
@@ -44,8 +45,11 @@
 }
 .clients_image {
   
+  display: table-cell;
   padding-top: 75px;
   margin-left: 100px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .partners_item {

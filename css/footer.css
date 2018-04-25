@@ -54,7 +54,6 @@
   right: 0;
   margin: 0 auto;
   font-family: 'Montserrat'; /*Montserrat Light*/
-  font-weight: 300;
   font-size: 16px;
   line-height: 30px;
   text-align: center;
@@ -80,8 +79,7 @@
   left: 0;
   right: 0;
   margin: 20px auto;
-  font-family: 'ProximaNova'; /*ProximaNova Regular*/;
-  font-weight: 400;
+  font-family: 'ProximaNovaRegular'; /*ProximaNova Regular*/
   width: 340px;
 
  }
@@ -118,9 +116,8 @@
 
 .contacts {
 
-  font-family: 'ProximaNova'; /*ProximaNova Light*/;
-  font-weight: 300;
-   font-size: 14px;
+  font-family: 'ProximaNovaLight'; /*ProximaNova Light*/;
+  font-size: 14px;
   line-height: 14px;
   text-align: center;
   padding-top: 10px;
@@ -157,7 +154,6 @@ color: #ffffff;
 border-radius: 5px;
 text-align: center;
 font-family: 'Montserrat'; /*Monsterrat Light*/;
-font-weight: 300;
 font-size: 12.6px;
 line-height: 18px;
 text-transform: uppercase;
@@ -206,8 +202,7 @@ form {
 #user-message {
 width: 325px;
 background-color: #444444;
-font-family: 'ProximaNova'; /*ProximaNova Regular*/;
-font-weight: 400;
+font-family: 'ProximaNovaRegular'; /*ProximaNova Regular*/;
 font-size: 16px;
 line-height: 25px;
 padding-left: 15px;
@@ -224,6 +219,9 @@ margin-top: 2px;
   border-radius: 5px 5px 0 0;
  }
 
+#user-message {
+  width: 323px;
+}
 /*  /FORMA FEEDBACK  */
 
 
