@@ -112,7 +112,7 @@
   
   float: left;
   width: 160px;
-  padding-left: 170px;
+  padding-left: 230px;
   color: #ffffff;  
 }
 
@@ -138,10 +138,10 @@
 
 .search_box {
   
-  display: block;
   float: right;
   width: 175px;
   margin-top: 3px;
+
 }
 
 #search {

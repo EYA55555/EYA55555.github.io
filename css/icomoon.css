@@ -29,6 +29,12 @@
 
 .icon-search:before {
   content: "\e986";
+  float: right;
+  color: #696969;
+  position: fixed;
+  margin-top: -23px;
+  margin-left: 160px;
+  z-index: 1;
 }
 .icon-arrow-right2:before {
   content: "\ea3c";
@@ -42,18 +48,45 @@
 	padding-left: 25px;
 }
 .icon-facebook:before {
-  content: "\ea90";
+	display: inline-block;
+  	content: "\ea90";
+ 	background-color: #1d53aa;
+	border-radius: 50%;
+  	color: #ffffff;
+  	height: 20px;
+  	width: 20px;
+  	cursor: pointer;
 }
 .icon-twitter:before {
-  content: "\ea96";
+	display: inline-block;
+  	content: "\ea96";
+  	background-color: #00aced;
+ 	border-radius: 50%;
+  	color: #ffffff;
+  	height: 20px;
+  	width: 20px;
+  	cursor: pointer;
 }
 .icon-dribbble:before {
-  content: "\eaa7";
-  vertical-align: middle;
- 
+	content: "\eaa7";
+	display: inline-block;
+  	color: #ea4c89;
+  	height: 20px;
+  	width: 20px;
+  	cursor: pointer;
 }
 .icon-behance:before {
-  content: "\eaa8";
+	display: inline-block;
+  	content: "\eaa8";
+  	color: #ffffff;
+  	background-color: #0061ff;
+  	border-radius: 50%;
+  	height: 20px;
+  	width: 20px;
+  	text-align: center;
+  	cursor: pointer;
+
+
 
 }
 

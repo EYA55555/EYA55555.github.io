@@ -18,20 +18,19 @@
 }
 
 /*  SUMMARY  */
+.page_footer {
+  background-color: #333333;
+}
 
 .summary {
-  
-  padding-top: 30px;
-  padding-bottom: 30px;
+ 
   height: 440px;
-  
+  width: 100%;
   color: #cccccc;
-  background-color: #333333;
-  
+  padding: 30px;
 }
 
 .summary a {
-  
   text-decoration: none;
   color: inherit;
 }
@@ -41,26 +40,26 @@
 }
 
 .summary_block {
-  
   float: left;
-  width: 33%;
+  width: 340 px;
+  padding-left: 100px;
+}
 
+.summary_block:first-child {
+   padding-left: 0;
 }
   
 .summary_title {
-  
   display: block;
   left: 0;
   right: 0;
   margin: 0 auto;
-  font-family: 'Montserrat'; /*Montserrat Light*/
+  font-family: 'MontserratLight'; /*Montserrat Light*/
   font-size: 16px;
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
   width: 160px;
-  
-  
 }
 
 .summary_block .line_block {
@@ -68,7 +67,7 @@
   padding: 0 15px;
   border: 1px solid #ebebeb;
   float:left; 
-  margin-left: 190px;
+  margin-left: 150px;
   
 }
 
@@ -81,38 +80,26 @@
   margin: 20px auto;
   font-family: 'ProximaNovaRegular'; /*ProximaNova Regular*/
   width: 340px;
-
+  text-align: center;
  }
-
-.media {
-
-  display: block;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-
 
 .summary_list,
 .summary_item {
-  
   list-style: none;
-  
-  
 }
 
 .summary_link {
   position: relative;
   display: inline-block;
-
 }
 
 .summary_link:hover {
-  
   color: #c7b299;
-  
 }
+
+/*.summary_list {
+  padding-left: 30px;
+}*/
 
 .contacts {
 
@@ -153,7 +140,7 @@ padding: 0 5px;
 color: #ffffff;
 border-radius: 5px;
 text-align: center;
-font-family: 'Montserrat'; /*Monsterrat Light*/;
+font-family: 'MontserratLight'; /*Monsterrat Light*/;
 font-size: 12.6px;
 line-height: 18px;
 text-transform: uppercase;
@@ -180,21 +167,16 @@ form {
 }
 
 .feedback-form__info{
- 
+  padding-top: 20px;
 }
 
-
-
-
 .overlay {
-
   position: inline-block;
-  width: 325px;
+  width: 340px;
   top: 0
    left: 0;
   right: 0;
   margin: 0 auto;
-  
 }
 
 #user-name,
@@ -208,11 +190,16 @@ line-height: 25px;
 padding-left: 15px;
 border: none;
 margin-top: 2px;
+}
 
+#user-name:hover,
+#user-email:hover,
+#user-message:hover {
+  color: #ffffff;
 }
 
 #user-message {
-  width: 323px;
+  width: 340px;
 }
 
 #user-name {

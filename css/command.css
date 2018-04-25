@@ -24,7 +24,7 @@
 
 .command_title {
 	padding-top: 30px;
-	font-family: 'Montserrat', sans-serif; /*Montserrat Light*/
+	font-family: 'MontserratLight', sans-serif; /*Montserrat Light*/
 	color: #207b20;
 	font-size: 20.54px;
 	line-height: 50px;
@@ -51,8 +51,10 @@
 	list-style: none;
   	width: 20%;
   	float: left;
+}
 
-
+.team_foto {
+	margin-bottom: 8px;
 }
 
 .taem_name {
@@ -64,17 +66,7 @@
    	color: #ffffff;
 	text-align: center;
 	position: relative;
-	margin-top: 90px;	
-}
-
-.media {
-
-	top: 0;
-	left:0;
-	right: 0;
-	margin: 0 auto;
-	text-align: center;
-	opacity: 0.75;
+	margin-top: 20px;	
 }
 
 .work_button {
@@ -88,13 +80,27 @@
 
 .icon_box {
 	display: block;
+
 	width: 85px;
+	height: 28px;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
 	border-radius: 25px;
 	background-color: #c5e9c5;
 	vertical-align: middle;
+	text-align: center;
+	padding: 0;
+
+}
+
+.vertical-line {
+	background-color: #207b20;
+	height: 77px;
+	width: 2px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 
 /*   /COMMAND*/
