@@ -24,6 +24,8 @@
     height: 100%;
     border: none;
     background: url(../img/background.png) no-repeat center top/cover;
+    height: 660px;
+    width: auto;
     /*background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;*/
