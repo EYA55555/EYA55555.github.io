@@ -23,10 +23,10 @@
     width: 100%;
     height: 100%;
     border: none;
-    background: url('../img/background.png');
-    background-repeat: no-repeat;
+    background: url(../img/background.png) no-repeat center top/cover;
+    /*background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover;*/
 }
 
  .presentation {
