@@ -13,7 +13,6 @@
 .clients {
 	display: block;
 	position: relative;
-  	width: 100%;
   	height: 600px;
    	background-color: #f2f1f1;
 }

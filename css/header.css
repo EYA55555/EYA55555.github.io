@@ -49,7 +49,7 @@
   display: block;
   width: 410px;
   margin: 0 0 0 -150px;
-  padding-right: 80px;
+  /*padding-right: 80px;*/
 }
 
 .navigation {
@@ -112,7 +112,7 @@
   
   float: left;
   width: 160px;
-  padding-left: 230px;
+  padding-left: 290px;
   color: #ffffff;  
 }
 

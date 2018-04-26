@@ -74,8 +74,8 @@
     display: block;
 	background-color: #3eba3e; 
 	height: 95px;
-	position: relative;
-  	width: 100%;
+	/*position: relative;
+  	width: 100%;*/
 }
 
 .icon_box {
