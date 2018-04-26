@@ -24,7 +24,7 @@
 
 .summary {
  
-  height: 440px;
+  height: 450px;
   width: 100%;
   color: #cccccc;
   padding: 30px;
@@ -43,6 +43,7 @@
   float: left;
   width: 340 px;
   padding-left: 100px;
+  height: 450px;
 }
 
 .summary_block:first-child {
@@ -131,11 +132,12 @@ padding-top: 20px;
 .category5 {
 
 display: inline-block;
-top:0;
 position: absolute;
-margin-left: 60px;
-margin-top: 45px;
-padding: 0 5px;
+text-align: left;
+left: 60px;
+top: 40px;
+margin-left: 0;
+
 
 color: #ffffff;
 border-radius: 5px;

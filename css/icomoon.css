@@ -31,12 +31,13 @@
 }
 
 .icon-search:before {
+	display: flex;
   content: "\e986";
   float: right;
   color: #696969;
   position: fixed;
   margin-top: -23px;
-  margin-left: 160px;
+  margin-left: 143px;
   z-index: 1;
 }
 .icon-arrow-right2:before {

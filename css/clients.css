@@ -4,10 +4,8 @@
 .clients_title,
 .clients_description,
 .clients_list {
-  
   margin: 0;
   padding: 0;
-  
 }
 
 .clients {
@@ -17,15 +15,13 @@
    	background-color: #f2f1f1;
 }
 
-
-
 .clients_title {
-
 	font-family: 'MontserratLight', sans-serif; /*Montserrat Light*/
 	font-size: 20.54px;
 	line-height: 50px;
 	text-transform: uppercase;
   	text-align: center;
+  	vertical-align: middle;
   	color:#828181;
   	padding-top: 30px;
 }
@@ -35,13 +31,6 @@
 	color:#828181;
 }
 
-.clients_image,
-.partners_item {
-
-	display: block;
-	list-style: none;
-
-}
 .clients_image {
   
   display: table-cell;
@@ -52,7 +41,8 @@
 }
 
 .partners_item {
-  
+  display: block;
+  list-style: none;
   position: relative;
   float: left;
   width: 170px;

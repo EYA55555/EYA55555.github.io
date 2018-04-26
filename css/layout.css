@@ -298,12 +298,13 @@ font-style: normal;
   right: 40px; 
   bottom: 40px;
   z-index: 1;
-  background-color: rgba(255,255,230,0.7);
   color: #2b9b2b;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 25px;
   width: 50px;
   padding: 5px 10px;
-  border: 1px solid #2b9b2b;
+  
 
 
 }
