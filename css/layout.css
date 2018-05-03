@@ -1,0 +1,348 @@
+/*  LAYOUT  */
+
+html, body {
+  
+  min-width: 1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+html {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 28px;
+  
+}
+
+/*FONTS*/
+@font-face{
+
+font-family: 'Nautilus Pompilius';
+src: url('../fonts/NautilusPompilius.otf');
+font-style: normal;
+font-weight: normal;
+
+}
+
+@font-face{
+font-family: 'ProximaNovaRegular';
+src: url('../fonts/ProximaNova-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'ProximaNovaLight';
+src: url('../fonts/ProximaNova-Light.ttf');
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face{
+font-family: 'ProximaNovaBold';
+src: url('../fonts/ProximaNova-Bold.ttf');
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face{
+font-family: 'MontserratLight';
+src: url('../fonts/Montserrat-Light.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'MontserratBold';
+src: url('../fonts/Montserrat-Bold.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+.container {
+  
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.clearfix::before, 
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: none;
+  margin: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  
+}
+
+/*  /LAYOUT  */
+
+/*  BUTTON  */
+
+.btn {
+  
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+
+  
+}
+
+.btn-presentation {
+  
+  width: 210px;
+  border-radius: 25px;
+  background-color: #54d154;
+  font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
+  font-size: 22px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  
+}
+
+.btn-presentation:hover {
+   background-color: rgba(255,255,255,0.7);
+   color: #2b9b2b;
+}
+
+button.scroll_down {
+  position: absolute;
+  width: 120px;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.5);
+  color: #000000;
+  font-family: 'ProximaNovaLight', sans-serif; /*ProximaNova Light*/  
+  font-size: 16px;
+  line-height: 27px;
+  text-transform: lowercase;
+  text-align: center;
+  left: 0;
+  right: 0;    
+  margin: 0 auto;
+}
+
+button.scroll_down:hover {
+ color: #ffffff;
+ background-color: #54d154;
+}
+
+
+.btn-services {
+  background-color: #54d154;
+  width: 120px;
+  border-radius: 15px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'ProximaNovaBold', sans-serif; /*Proxima Nova Bold*/
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-services:hover{
+  background-color: #dddcdc;
+  color: #2b9b2b;
+}
+
+.btn-filter {
+    position: absolute;
+    bottom: -455px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.btn-filter:hover {
+    background-color: #ffffff;
+    color: #2b9b2b;
+}
+
+.btn-filter {
+    background-color: #2b9b2b;
+    width: 190px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 40px;  
+    font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
+    text-align: center;
+    color:#ffffff;
+}
+
+.btn-allclients {
+    background-color: #dddcdc;
+    width: 190px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 40px;
+                   
+    font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
+    text-align: center;
+    vertical-align: middle;
+    color:#a59d9d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 500px;
+    
+}
+
+.btn-allclients:hover {
+    background-color: #a59d9d;
+    color: #ffffff;    
+}
+
+.btn-work {
+    background-color: #54d154;
+    width: 175px;
+    border-radius: 25px;
+     font-family: 'ProximaNovaLight', sans-serif; /*Proxima Nova Light*/
+    font-size: 18.63px;
+    line-height: 40px;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 30px auto;
+    text-transform: uppercase;
+    box-shadow: 0 4px 4px rgba(60,122,35,1);
+}
+.btn-work:hover {
+    background-color: #ffffff;
+    color: #3eba3e;
+}
+
+.btn-forma_send {
+    display: inline-block;
+    background-color: #2b9b2b;
+    width: 340px;
+    font-family: 'ProximaNovaRegular', sans-serif; /*Proxima Nova Regular*/
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color:#ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 0 0 5px 5px;
+}
+
+.btn-forma_send:hover {
+  background-color: #54d154;
+  color: #333333;
+}
+   
+/*  /BUTTON  */
+
+/* TOUP   */
+
+.anim-toup {
+  position: fixed;
+  right:10px;
+  bottom: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+  background-color: #2b9b2b;
+  color: #ffffff;
+  display: none;
+  text-decoration: none;
+  background-image: linear-gradient(
+hsla(0,0%,100%,.6),
+hsla(0,0%,100%,0));
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.anim-toup:hover {
+  -webkit-transform: translate(0, -110px);
+  -moz-transform: translate(0, -110px);
+  -ms-transform: translate(0, -110px);
+  -o-transform: translate(0, -110px);
+  transform: translate(0, -110px);
+  background:rgba(43, 155, 43, 0.4);
+padding: 0;
+}
+.toup {
+ display: block;
+  right: 15px;
+  bottom: 5px;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.toup-visible {
+  display: block;
+}
+
+.toup:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  right: 40px; 
+  bottom: 40px;
+  z-index: 1;
+  color: #2b9b2b;
+  font-size: 14px;
+  font-weight: bold;
+  height: 25px;
+  width: 50px;
+  padding: 5px 10px;
+  }
+
+/*  /TOUP  */
+
+/* FORMA SEARCH */
+.btn-forma_search {
+  display: inline-block;
+  background-color: rgba(255,255,255,0);
+   width: 20px;
+   height: 20px;
+    bottom: 0;
+    border: none;
+
+  }
+
+
+/*  /FORMA SEARCH */

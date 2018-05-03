@@ -1,0 +1,106 @@
+/* COMMAND*/
+
+.command,
+.command_title,
+.command_description,
+.team_list,
+.team_item, 
+.work_button,
+.icon_box {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.command {
+    
+    text-align: center;
+    display: block;
+	background-color: #54d154; 
+	height: : 485px;
+
+}
+
+.command_title {
+	padding-top: 30px;
+	font-family: 'MontserratLight', sans-serif; /*Montserrat Light*/
+	color: #207b20;
+	font-size: 20.54px;
+	line-height: 50px;
+
+}
+
+.command_description {
+	color: #207b20;
+}
+
+.team_list {
+  
+  padding: 0;
+  list-style: none;
+  padding-top: 60px;
+  padding-bottom: 70px;
+ 
+  text-align: center;
+
+  
+}
+
+.team_item {
+	list-style: none;
+  	width: 20%;
+  	float: left;
+}
+
+.team_foto {
+	margin-bottom: 8px;
+}
+
+.taem_name {
+
+	display: block;
+	font-family: 'ProximaNovaRegular', sans-serif; /*ProximaNova Regular*/
+	font-size: 16px;
+   	line-height: 32px;
+   	color: #ffffff;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;	
+}
+
+.work_button {
+ 	text-align: center;
+    display: block;
+	background-color: #3eba3e; 
+	height: 95px;
+	/*position: relative;
+  	width: 100%;*/
+}
+
+.icon_box {
+	display: block;
+
+	width: 85px;
+	height: 28px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-radius: 25px;
+	background-color: #c5e9c5;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0;
+
+}
+
+.vertical-line {
+	background-color: #207b20;
+	height: 77px;
+	width: 2px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+/*   /COMMAND*/

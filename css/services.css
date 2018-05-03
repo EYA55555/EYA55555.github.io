@@ -1,0 +1,145 @@
+/*  SERVICES  */
+
+
+.services,
+.services_title,
+.services_description,
+.services_item,
+.services_item_title,
+.services_item_description {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.services {
+  
+  display: block;
+  font-family: 'MontserratLight', sans-serif; /*Montserrat Light*/
+  margin-top: 30px;
+
+  
+}
+.services_title {
+
+  color: #828181;
+  font-family: 'MontserratLight', sans-serif; /*Montserrat Light*/
+  font-size: 20.54px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services_description {
+  color: #818181;
+  text-align: center;
+
+}
+
+.services_list {
+  
+  padding: 0;
+  list-style: none;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  
+}
+
+.services_item {
+  
+  list-style: none;
+  width: 33%;
+  float: left;
+
+  
+}
+
+.services_item::before {
+  
+  content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  width: 143px;
+  margin: 0 auto;
+  height: 143px;
+  
+}
+
+.icon-1 {
+   background-image: url(../img/Forma-1.svg);
+    background-position: center;
+}
+
+.icon-2 {
+   background-image: url(../img/Forma-2.svg);
+    background-position: center;
+}
+
+.icon-3 {
+   background-image: url(../img/Forma-3.svg);
+    background-position: center;
+}
+
+.icon-1, 
+.icon-2,
+.icon-3 {
+  display: block;
+  position: relative;
+  
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+
+  background-repeat: no-repeat;
+   background-color: #e8e3e3;
+   border-radius: 25px;
+
+
+}
+
+.services_item::after {
+  
+  content: "";
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  width: 70px;
+  margin: 0 auto;
+  height: 3px;
+    
+}
+
+.services_item_title {   
+  
+  margin-top: -3px;
+  margin-bottom: 15px;
+  color: #818181;
+  padding-top: 28px;
+  font-family: 'ProximaNovaBold', sans-serif; /*Proxima Nova Bold*/
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  
+}
+
+.services_item_description {
+  
+  color: #818181;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+  
+}  
+
+/*  /SERVICES  */

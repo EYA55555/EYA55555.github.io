@@ -1,0 +1,91 @@
+/*  ICON */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?zbqujl');
+  src:  url('../fonts/icomoon/icomoon.eot?zbqujl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?zbqujl') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?zbqujl') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?zbqujl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up:before {
+  content: "\ea32";
+  z-index: 1;
+}
+
+.icon-search:before {
+	
+  content: "\e986";
+  color: #696969;
+  
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-down2:before {
+  content: "\ea3e";
+  vertical-align: middle;
+}
+
+.btn-allclients .icon-arrow-right2:before  {
+	padding-left: 25px;
+}
+.icon-facebook:before {
+	display: inline-block;
+  	content: "\ea90";
+ 	background-color: #1d53aa;
+	border-radius: 50%;
+  	color: #ffffff;
+  	height: 20px;
+  	width: 20px;
+  	cursor: pointer;
+}
+.icon-twitter:before {
+	display: inline-block;
+  	content: "\ea96";
+  	background-color: #00aced;
+ 	border-radius: 50%;
+  	color: #ffffff;
+  	height: 20px;
+  	width: 20px;
+  	cursor: pointer;
+}
+.icon-dribbble:before {
+	content: "\eaa7";
+	display: inline-block;
+  	color: #ea4c89;
+  	height: 20px;
+  	width: 20px;
+  	cursor: pointer;
+}
+.icon-behance:before {
+	display: inline-block;
+  	content: "\eaa8";
+  	color: #ffffff;
+  	background-color: #0061ff;
+  	border-radius: 50%;
+  	height: 20px;
+  	width: 20px;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+/*  /ICON*/

@@ -1,0 +1,38 @@
+/*   LOGOS   */
+.logos,
+.logo_list,
+.logo_item,
+.logo_link,
+.logo_image {
+  margin: 0;
+  padding: 0; 
+}
+
+.logos {
+	display: block;
+	background-color: #222222;
+	position: relative;
+  	height: 150px; 
+}
+
+.logo_item {
+	display: block;
+	list-style: none;
+  position: relative;
+  float: left;
+  top: 75px;
+  width: 170px;
+  margin: 0 50px;
+}
+}
+
+.logo_image {
+  
+  display: table-cell;
+  padding-top: 75px;
+  margin-left: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*   /LOGOS  */
