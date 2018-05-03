@@ -14,7 +14,7 @@
 .page_header {
   
   display: block;
-  width: 100%;
+  width: auto;
   height: 40px;
   padding-top: 0px;
   margin-bottom: -40px;
@@ -48,8 +48,6 @@
   float: left;
   display: block;
   width: 410px;
-  margin: 0 0 0 -150px;
-  /*padding-right: 80px;*/
 }
 
 .navigation {
@@ -72,6 +70,7 @@
   font-size: 0;
   line-height: 0;
   vertical-align: top;  
+
 }
 
 .navigation-main .navigation_item {
@@ -112,7 +111,7 @@
   
   float: left;
   width: 160px;
-  padding-left: 290px;
+  padding-left: 150px;
   color: #ffffff;  
 }
 
