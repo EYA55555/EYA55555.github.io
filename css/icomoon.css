@@ -28,17 +28,14 @@
 
 .icon-arrow-up:before {
   content: "\ea32";
+  z-index: 1;
 }
 
 .icon-search:before {
-	display: flex;
+	
   content: "\e986";
-  float: right;
   color: #696969;
-  position: fixed;
-  margin-top: -23px;
-  margin-left: 143px;
-  z-index: 1;
+  
 }
 .icon-arrow-right2:before {
   content: "\ea3c";

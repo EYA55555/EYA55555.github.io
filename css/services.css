@@ -72,14 +72,17 @@
 
 .icon-1 {
    background-image: url(../img/Forma-1.svg);
+    background-position: center;
 }
 
 .icon-2 {
    background-image: url(../img/Forma-2.svg);
-   text-align: center;
+    background-position: center;
 }
+
 .icon-3 {
    background-image: url(../img/Forma-3.svg);
+    background-position: center;
 }
 
 .icon-1, 
@@ -97,6 +100,8 @@
   background-repeat: no-repeat;
    background-color: #e8e3e3;
    border-radius: 25px;
+
+
 }
 
 .services_item::after {

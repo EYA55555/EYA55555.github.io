@@ -1,7 +1,7 @@
 (function(){
   
   var screenHeight = document.documentElement.clientHeight;
-  var btnToUp = document.querySelector(".toup");
+  var btnToUp = document.querySelector(".anim-toup");
   var scrollHeight;
   var timer;
   

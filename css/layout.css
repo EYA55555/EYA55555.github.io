@@ -135,8 +135,8 @@ font-style: normal;
    color: #2b9b2b;
 }
 
-.btn-scroll {
-  position: relative;
+button.scroll_down {
+  position: absolute;
   width: 120px;
   border-radius: 15px;
   background-color: rgba(255,255,255,0.5);
@@ -151,14 +151,13 @@ font-style: normal;
   margin: 0 auto;
 }
 
-.btn-scroll:hover {
+button.scroll_down:hover {
  color: #ffffff;
  background-color: #54d154;
 }
 
 
 .btn-services {
-  
   background-color: #54d154;
   width: 120px;
   border-radius: 15px;
@@ -269,17 +268,47 @@ font-style: normal;
 /*  /BUTTON  */
 
 /* TOUP   */
-.toup {
+
+.anim-toup {
   position: fixed;
-  right: 20px;
-  bottom: 20px;
-  width: 40px;
-  height: 40px;
+  right:10px;
+  bottom: 15px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  line-height: 40px;
+
   background-color: #2b9b2b;
   color: #ffffff;
   display: none;
+  text-decoration: none;
+  background-image: linear-gradient(
+hsla(0,0%,100%,.6),
+hsla(0,0%,100%,0));
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.anim-toup:hover {
+  -webkit-transform: translate(0, -110px);
+  -moz-transform: translate(0, -110px);
+  -ms-transform: translate(0, -110px);
+  -o-transform: translate(0, -110px);
+  transform: translate(0, -110px);
+  background:rgba(43, 155, 43, 0.4);
+padding: 0;
+}
+.toup {
+ display: block;
+  right: 15px;
+  bottom: 5px;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
   text-decoration: none;
   z-index: 1;
 }
@@ -287,10 +316,6 @@ font-style: normal;
 .toup-visible {
   display: block;
 }
-
-/*.toup::after {
-  content: attr(data-title);
-}*/
 
 .toup:hover::after {
   content: attr(data-title);
@@ -304,9 +329,20 @@ font-style: normal;
   height: 25px;
   width: 50px;
   padding: 5px 10px;
-  
+  }
+
+/*  /TOUP  */
+
+/* FORMA SEARCH */
+.btn-forma_search {
+  display: inline-block;
+  background-color: rgba(255,255,255,0);
+   width: 20px;
+   height: 20px;
+    bottom: 0;
+    border: none;
+
+  }
 
 
-}
-
-/*  /YOUP  */
+/*  /FORMA SEARCH */

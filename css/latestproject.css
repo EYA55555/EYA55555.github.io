@@ -54,7 +54,7 @@
   display: none;
 }
 
-.latestproject_filter span {
+.latestproject_filter button {
   display: inline-block;
   padding: 0 12px;
   border: 1px solid #ebebeb;
@@ -68,7 +68,7 @@
   color: #2b9b2b;
 }
 
-.latestproject_filter span:hover {
+.latestproject_filter button:hover {
 	color: #ffffff;
     background-color: #2b9b2b;
 }
