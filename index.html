@@ -74,14 +74,12 @@
 </div>
 </section>
 <!--/Page offers-->
-
 <!--Page service-->
 <section class="services">
   <div class="container">
       <h3 class="services_title">WHAT WE DO</h3>
           <p class="services_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
       </div>
-
   <ul class="services_list container clearfix">
     <li class="services_item">
       <div class="icon-1"></div>
@@ -104,8 +102,6 @@
   </ul>
 </section>
 <!--/Page service-->
-
-
 <!--Latest Projects-->
   <section class="latestproject">
       <div class="container">
@@ -118,12 +114,10 @@
               <input type="radio" name="filter" value="Photography" checked>
               <button class="Photo">Photography</button>
           </label>
-
           <label class="latestproject_filter">
               <input type="radio" name="filter" value="Design">
               <button class="Design">Design</buttonbutton>
           </label>
-
           <label class="latestproject_filter">
               <input type="radio" name="filter" value="Print">
               <button class="Print">Print</button>
@@ -132,44 +126,34 @@
           <button class="btn btn-filter" type="submit">View more work  <span class="icon-arrow-right2"></span>
           </button>
         </form>
-
       <ul class="latestproject_foto">
         <li class="latestproject_project">
             <img class="projects_image" id="image-Print" src="img/project-1.png" alt="image project 1">
         </li>
-
         <li class="latestproject_project">
             <img class="projects_image" id="image-Design" src="img/project-2.png" alt="image project 2">
         </li>
-
          <li class="latestproject_project">
             <img class="projects_image" id="image-Photo" src="img/project-3.png" alt="image project 3">
         </li>
-
         <li class="latestproject_project">
             <img class="projects_image" id="image-Photo" src="img/project-4.png" alt="image project 4">
         </li>
-
          <li class="latestproject_project">
             <img class="projects_image" id="image-Photo" src="img/project-5.png" alt="image project 5">
         </li>
-
         <li class="latestproject_project">
             <img class="projects_image" id="image-Design" src="img/project-6.png" alt="image project 6">
         </li>
-
         <li class="latestproject_project">
             <img class="projects_image" id="image-Design" src="img/project-7.png" alt="image project 7">
         </li>
-
          <li class="latestproject_project">
             <img class="projects_image" src="img/project-8.png" alt="image project 8">
         </li>
-
         <li class="latestproject_project">
             <img class="projects_image" id="image-Print" src="img/project-9.png" alt="image project 9">
         </li>
-
         <li class="latestproject_project">
             <img class="projects_image" id="image-Print" src="img/project-10.png" alt="image project 10">
         </li>
@@ -177,7 +161,6 @@
     </div>
   </section> 
 <!--/Latest Projects-->
-
 <!--testimonials-->                               <!--отзвывы слайдер-->
   <section class="testimonials">
   <div class="container">
@@ -227,7 +210,6 @@ tidak menderita penyakit apapun!”</p>
   </div>
 </section>
 <!--/testimonials-->
-
 <!--clients-->
 <section class="clients">
   <div class="container">
@@ -278,9 +260,7 @@ tidak menderita penyakit apapun!”</p>
      <button class="btn btn-allclients" type="submit">See all client <span class="icon-arrow-right2"></span></button>
   </div>
 </section>
-
 <!--/clients-->
-
 <!--command-->
 <section class="command">
   <div class="container">
@@ -338,7 +318,6 @@ tidak menderita penyakit apapun!”</p>
               </div>
           </li>
       </ul>
-
   </div>
 </section>
 <!--/command-->
@@ -347,10 +326,8 @@ tidak menderita penyakit apapun!”</p>
           <a class="btn btn-work" href="#" role="button">Work with us</a>
       </div>
 </section>
-
 </main>
 <!-- /Main -->
-
 <!--/Footer -->
 <footer class="page_footer">
   <div class="container">
@@ -418,19 +395,25 @@ tidak menderita penyakit apapun!”</p>
               <p>Fax: +1 (0) 321 4567 890</p>
           </div>
                                                                       <!--feetback form-->
-        <div id="feedback-form__wrapper" class="overlay">
-        <form id="feedback-form" action="/sendmail.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
+        <div class="feedback-form__wrapper">
+        <form id="feedback-form" action="/form.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
         <h2 class="visually-hidden">Обратная связь</h2>
-        <div class="feedback-form__info"></div>
+          
+        <input id="user-name" type="text" name="user_name" value="" placeholder="Your Name.." onfocus="this.placeholder=''" onchange="this.value = this.value.replace(/^\s+|\s+$/g, '')" autofocus required>
         
-        <input id="user-name" type="text" name="user_name" value="" placeholder="Your Name.." autofocus required>
-        
-        <input id="user-email" type="email" name="user_email" value="" placeholder="Your Email.." required>
+        <input id="user-email" type="email" name="user_email" value="" placeholder="Your Email.." onfocus="this.placeholder=''"  onchange="if(this.value != '')" required>
            
-        <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." required></textarea>
-        <button class="btn btn-forma_send" type="submit">Send</button>
+        <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." onfocus="this.placeholder=''" required></textarea>
+        <button id="feedback-send" class="btn btn-forma_send" type="submit">Send</button> 
+        <div class="overlay">
+          <div id="messageSubmit">
+          <p >Message Submitted!</p>
+          <button class="feedback__close" type="button">закрити</button>
+        </div>
+      </div>
       </form>
     </div>                                                           
+
   </div>
   </div>
  
@@ -439,7 +422,6 @@ tidak menderita penyakit apapun!”</p>
    
   </footer>
 <!-- /Page Footer -->
-
 <section class="logos">
       <div class="container">
          <ul class="logo_list">
@@ -473,10 +455,8 @@ tidak menderita penyakit apapun!”</p>
 <script src="js/sticky-header.js"></script>
 <script src="js/toup.js"></script>
 <script src="js/scroll-down.js"></script>
-<script scr="js/form-latest_work.js"></script>
-
-
+<!--<script scr="js/form-latest_work.js"></script>-->
+<script scr="js/form-send.js"></script>
 </body>
 <!-- /Page Body-->
-
 </html>
