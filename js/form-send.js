@@ -4,7 +4,7 @@
   var formaBth = document.querySelector("#feedback-send");
   var closeForm = document.querySelector(".feedback__close");
 
-  /*if (!overlay || !formaBth || !closeForm) return;*/
+  if (!overlay || !formaBth || !closeForm) return;
 
   formaBth.addEventListener("click", function(event) {
 

@@ -29,9 +29,9 @@
       <nav class="navigation_wrapper">
         <ul class="navigation navigation-main">
           <li class="navigation_item"><a href="#" class="navigation_link">Home</a></li>
-          <li class="navigation_item"><a href="#" class="navigation_link">What we do?</a></li>
-          <li class="navigation_item"><a href="#" class="navigation_link">Testimonial</a></li>
-          <li class="navigation_item"><a href="#" class="navigation_link">Contact Us</a></li>
+          <li class="navigation_item"><a href="#yak1" class="navigation_link">What we do?</a></li>
+          <li class="navigation_item"><a href="#yak2" class="navigation_link">Testimonial</a></li>
+          <li class="navigation_item"><a href="#yak3" class="navigation_link">Contact Us</a></li>
         </ul>
       </nav>
       <div class="company">
@@ -78,6 +78,7 @@
 <section class="services">
   <div class="container">
       <h3 class="services_title">WHAT WE DO</h3>
+      <div id="yak1"></div>
           <p class="services_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
       </div>
   <ul class="services_list container clearfix">
@@ -165,6 +166,7 @@
   <section class="testimonials">
   <div class="container">
     <h2 class="testimonials_title">Testimonials</h2>
+    <div id="yak2"></div>
         <p class="testimonials_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p>
      <div id="offers_slider" class="slider">
         <input id="slide-01" class="slider_switch" type="radio" name="switch" checked>
@@ -384,8 +386,10 @@ tidak menderita penyakit apapun!”</p>
             </li>
           </ul>
         </div>
+        <div id="yak3"></div>
         <div class="summary_block">
           <h2 class="summary_title">contact us</h2>
+          
           <div class="line_block"></div>
           <div class="contacts">
               <p>10044 West 23th Street, Suite 721</p>
@@ -455,8 +459,21 @@ tidak menderita penyakit apapun!”</p>
 <script src="js/sticky-header.js"></script>
 <script src="js/toup.js"></script>
 <script src="js/scroll-down.js"></script>
-<!--<script scr="js/form-latest_work.js"></script>-->
+
 <script scr="js/form-send.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+ $(document).ready(function(){
+    $(".navigation_wrapper").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+<!--<script scr="js/form-latest_work.js"></script>-->
 </body>
 <!-- /Page Body-->
 </html>
