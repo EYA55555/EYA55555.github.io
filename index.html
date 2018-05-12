@@ -28,7 +28,7 @@
     <div class="container clearfix">
       <nav class="navigation_wrapper">
         <ul class="navigation navigation-main">
-          <li class="navigation_item"><a href="#" class="navigation_link">Home</a></li>
+          <li class="navigation_item"><a href="#top" class="navigation_link">Home</a></li>
           <li class="navigation_item"><a href="#yak1" class="navigation_link">What we do?</a></li>
           <li class="navigation_item"><a href="#yak2" class="navigation_link">Testimonial</a></li>
           <li class="navigation_item"><a href="#yak3" class="navigation_link">Contact Us</a></li>
@@ -339,11 +339,11 @@ tidak menderita penyakit apapun!”</p>
           <p class="summary_title">About as</p>
           <div class="line_block"></div>
           <p class="about_text">  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
-         <div class="icon_box">
+            <div class="icon_box">
                 <span class="icon-dribbble"></span>
                 <span class="icon-facebook"></span>
                 <span class="icon-twitter"></span>
-              </div>
+            </div>
         </div>
         <div class="summary_block">
           <h2 class="summary_title">Recent Posts</h2>
@@ -399,31 +399,25 @@ tidak menderita penyakit apapun!”</p>
               <p>Fax: +1 (0) 321 4567 890</p>
           </div>
                                                                       <!--feetback form-->
-        <div class="feedback-form__wrapper">
-        <form id="feedback-form" action="/form.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
-        <h2 class="visually-hidden">Обратная связь</h2>
-          
-        <input id="user-name" type="text" name="user_name" value="" placeholder="Your Name.." onfocus="this.placeholder=''" onchange="this.value = this.value.replace(/^\s+|\s+$/g, '')" autofocus required>
-        
-        <input id="user-email" type="email" name="user_email" value="" placeholder="Your Email.." onfocus="this.placeholder=''"  onchange="if(this.value != '')" required>
-           
-        <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." onfocus="this.placeholder=''" required></textarea>
-        <button id="feedback-send" class="btn btn-forma_send" type="submit">Send</button> 
-        <div class="overlay">
-          <div id="messageSubmit">
-          <p >Message Submitted!</p>
-          <button class="feedback__close" type="button">закрити</button>
-        </div>
-      </div>
-      </form>
-    </div>                                                           
+              <div class="feedback-form__wrapper">
+                <form id="feedback-form" action="/form.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
+                  <h2 class="visually-hidden">Обратная связь</h2>
+                  <input id="user-name" type="text" name="user_name" value="" placeholder="Your Name.." onfocus="this.placeholder=''" onchange="this.value = this.value.replace(/^\s+|\s+$/g, '')" autofocus required>
+                  <input id="user-email" type="email" name="user_email" value="" placeholder="Your Email.." onfocus="this.placeholder=''"  onchange="if(this.value != '')" required>
+                  <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." onfocus="this.placeholder=''" required></textarea>
+                  <button class="btn btn-forma_send" type="submit">Send</button> 
+                </form>
+              </div>                                                           
 
-  </div>
-  </div>
- 
-       
+        </div>
     </div>
-   
+  </div>
+  <div id="overlay_wrapper" class="overlay">
+          <div class="messageSubmit">
+          <p>Message Submitted!</p>
+          <button class="feedback_close" type="button">закрити</button>
+        </div>
+  </div> 
   </footer>
 <!-- /Page Footer -->
 <section class="logos">
@@ -455,12 +449,11 @@ tidak menderita penyakit apapun!”</p>
  
 <!--  JAVA SCRIPTS  -->
 <script src="js/no-js.js"></script>
+<script src="js/form-send.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/sticky-header.js"></script>
 <script src="js/toup.js"></script>
 <script src="js/scroll-down.js"></script>
-
-<script scr="js/form-send.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
 <script type="text/javascript">
